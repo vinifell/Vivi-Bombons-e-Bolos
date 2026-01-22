@@ -1,0 +1,343 @@
+/*font-family: "Inter", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+
+:root{
+    --RosaClaro: #F0ADAD;
+    --VermelhoEscuro: rgb(144, 25, 21);
+}
+
+body{
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    border-width: 2px;
+    background-color: #F0ADAD;
+    height: 25vw;
+    border-bottom-left-radius: 6vw;
+    border-bottom-right-radius: 6vw;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+p,  span{
+    font-size: 4vw;
+}
+
+header{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    background-color: var(--VermelhoEscuro);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#navWeb{
+    display: none;
+}
+
+#primeiroNav{
+    display: flex;
+    z-index: 1000;
+}
+
+#logoNav{
+    width: 20%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.ifoodNav{
+    width: 10%;
+}
+
+#botoesNav{
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--RosaClaro);
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    display: none;
+}
+
+#ifoodMenu{
+    display: flex;
+    width: 45vw;
+    margin-left: 36%;
+    align-items: center;
+}
+
+#ifoodNavMob{
+    width: 10vw;
+}
+
+#botaoIfoodNav{
+    width: 100%;
+    border: none;
+    background-color: var(--VermelhoEscuro);
+    display: flex;
+    align-items: center;
+    border-radius: 2vw;
+    padding-left: 2vw;
+}
+
+#textIfoodNav{
+    margin-bottom: 1vw;
+}
+
+#teste{
+    width: 70%;
+}
+
+.menu{
+    background-color: transparent;
+    border: none;
+    font-size: 11.5vw;
+}
+
+.navegacoes{
+    text-decoration: none;
+    color: var(--VermelhoEscuro);
+    font-size: 5.5vw;
+}
+
+hr{
+    border: 1px solid #A16B6B;
+}
+
+#inicio{
+    background-image: url(Imagens/FuncoGradiente.png);
+    height: 54.5vw;
+    position: absolute;
+    z-index: -1;
+    top: 13.5%;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#imagemVivi{
+    object-fit: cover;
+}
+
+#principal{
+    background-color: var(--RosaClaro);
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 7vw;
+    border-top-right-radius: 7vw;
+    margin-top: 35%;
+    padding-top: 3%;
+}
+
+h2{
+    color: var(--VermelhoEscuro);
+}
+
+#cardapioIfood{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloCardapio{
+    width: 30%;
+    font-family: "Open Sans";
+    font-size: 6.5vw;
+}
+
+#botaoIfood{
+    margin-left: 38%;
+}
+
+#botaoIfoodCar{
+    width: 25vw;
+    border: none;
+    background-color: var(--VermelhoEscuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+}
+
+#textBotaoIfood{
+    font-size: 4vw;
+}
+
+#fotoIfoodCardapio{
+    width: 8vw;
+}
+
+.tituloProdutos{
+    color: var(--VermelhoEscuro);
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.linkProduto{
+    text-decoration: none;
+    width: 80vw;
+    display: none;
+    justify-content: center;
+}
+
+.fotoProduto{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    height: 25vw;
+    object-fit: cover;
+    object-position: 50% 63%;
+}
+
+.produtos{
+    width: 40vw;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    background-color: white;
+    margin-left: 3vw;
+    padding-bottom: 2%;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease;
+}
+
+.produtos:hover{
+    border: 2px solid var(--VermelhoEscuro);
+}
+
+.tituloProduto{
+    font-size: 3.5vw;
+    margin-left: 4%;
+    color: black;
+}
+
+.preco{
+    display: flex;
+    color: black;
+    margin-left: 4%;
+    width: 91%;
+}
+
+.real{
+    font-size: 5vw;
+}
+
+.valor{
+    font-size: 5vw;
+}
+
+.setaParaBaixo{
+    background-color: var(--VermelhoEscuro);
+    border: none;
+    border-radius: 50vw;
+    padding: 0;
+    color: white;
+    font-size: 6vw;
+    margin-left: auto;
+}
+
+.setaParaBaixo:hover{
+    background-color: var(--RosaClaro);
+}
+
+.valorOriginal{
+    font-size: 3vw;
+    color: rgb(96, 96, 96);
+    margin-left: 4%;
+}
+
+.desconto{
+    color: rgb(91, 152, 0);
+}
+
+.setaDesconto{
+    margin-left: 32%;
+}
+
+.infAMais{
+    color: black;
+    font-size: 2.7vw;
+    margin-left: 4.5%;
+}
+
+.Categorias{
+    display: flex;
+    margin-bottom: 7vw;
+}
+
+.active{
+    display: flex;
+}
+
+.activeP{
+    display: flex;
+}
+
+.activeB{
+    display: flex;
+}
+
+.setaMover{
+    background-color: transparent;
+    border: none;
+    font-size: 13vw;
+}
+
+#simularBolos{
+    background-color: white;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9vw;
+    padding-top: 10vw;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.opcoes{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.tituloOpcao{
+    font-size: 4vw;
+}
+
+.linhaTracejada{
+    border: none;
+    border-top: 2px dashed #000;
+    width: 10vw;
+}
