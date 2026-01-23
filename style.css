@@ -321,23 +321,118 @@ h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 9vw;
-    padding-top: 10vw;
+    padding-top: 6vw;
     padding-left: auto;
     padding-right: auto;
+    padding-bottom: 6vw;
 }
 
 .opcoes{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+    width: 70vw;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
 }
 
 .tituloOpcao{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .linhaTracejada{
     border: none;
     border-top: 2px dashed #000;
-    width: 10vw;
+    width: 10.5vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.valorBolos{
+    font-size: 3vw;
+    margin-right: 1vw;
+}
+
+.maisInf{
+    font-size: 2vw;
+}
+
+.botaoAdicionar{
+    background-color: var(--VermelhoEscuro);
+    color: white;
+    border: none;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.5vw;
+}
+
+.adicionarIcon{
+    background-color: var(--RosaClaro);
+    border-radius: 50%;
+    font-size: 4vw;
+    margin-left: 0.5vw;
+}
+
+.separacao{
+    width: 75vw;
+    margin-left: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+#linhaTracejada2{
+    width: 8.6vw;
+}
+
+#linhaTracejada3{
+    width: 10.1vw;
+}
+
+#linhaTracejada4{
+    width: 8vw;
+}
+
+.maisKg{
+    display: flex;
+    background-color: var(--VermelhoEscuro);
+    color: white;
+    border-radius: 1vw;
+    margin-left: 1vw;
+    width: 5.8vw;
+    justify-content: center;
+}
+
+#diminuirKg{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw
+}
+
+#aumentarKg{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw
+}
+
+#Kg{
+    font-size: 2vw;
+    margin-top: 0.3vw;
+}
+
+#adicionarKg{
+    margin-left: 0.3vw;
+    margin-right: 0.2vw;
+}
+
+#titulo3kg{
+    font-size: 2.5vw;
+}
+
+#valor3kg{
+    font-size: 2.5vw;
 }
