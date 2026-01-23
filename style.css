@@ -411,16 +411,7 @@ h2{
     margin-top: 1vw;
 }
 
-#diminuirKg{
-    background-color: var(--VermelhoEscuro);
-    border: none;
-    color: white;
-    font-size: 2vw;
-    width: 17vw;
-    border-radius: 1vw;
-}
-
-#aumentarKg{
+.diminuirOuAumentarKg{
     background-color: var(--VermelhoEscuro);
     border: none;
     color: white;
@@ -441,4 +432,105 @@ h2{
 
 #valor3kg{
     font-size: 3vw;
+}
+
+#simularDocinhos{
+    background-color: white;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9vw;
+    padding-top: 6vw;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 6vw;
+    margin-top: 5vw;
+}
+
+#quantosCentos{
+    display: flex;
+}
+
+#QuantidadeCentos{
+    font-size: 5vw;
+    margin-left: 5vw;
+}
+
+#maisOuMenos{
+    display: flex;
+    background-color: var(--VermelhoEscuro);
+    width: 20vw;
+    border-radius: 2vw;
+    justify-content: space-between;
+    margin-left: 4vw;
+}
+
+.mudar{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 6vw;
+}
+
+#totalCentos{
+    color: white;
+    font-size: 6vw;
+}
+
+#minimo{
+    color: gray;
+    width: 56vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+
+.Doce{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.tituloDoce{
+    font-size: 4vw;
+}
+
+.precoDoce{
+    color: gray;
+    font-size: 3vw;
+}
+
+.textQuantidade{
+    font-size: 4vw;
+    text-align: center;
+}
+
+.adicionarMaisD{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vw;
+    width: 45vw;
+}
+
+.diminuirOuAumentarD{
+    background-color: var(--VermelhoEscuro);
+    border: none;
+    color: white;
+    font-size: 2.3vw;
+    width: 20vw;
+    border-radius: 1vw;
+    padding-top: 1%;
+}
+
+#FinalizarDoce{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: 7vw;
+    font-size: 4vw;
+    border-radius: 2vw;
 }
